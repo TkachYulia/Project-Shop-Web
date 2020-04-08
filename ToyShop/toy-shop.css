@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.main-header {
+    background-color:#1f96f4;
+    color: white;
+    font-family: Bradley Hand, cursive, Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 150%;
+    text-align: center;
+}
+body {
+    background-image: url("background.jpg");
+    
+   /* background-color: rgb(242, 242, 242);*/
+}
+.login {
+background-color: white;
+margin: 12%;
+margin-left: 27%;
+padding: 5%;
+width: 38%;
+border-radius: 25px;
+box-shadow: 5px 5px 10px 10px Silver;
+font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.login h1{
+    padding-bottom: 5%;
+    color: #085691;
+}
+
+.login h2{
+    padding-top: 5%;
+    color: #085691;
+}
+.login h5{
+    color: rgb(128, 191, 255);
+}
+
+.login input{
+    
+    width: 60%;
+    height: 6%;
+    padding: 2%;
+    float: center;
+    border-radius: 10px;
+    border-color: #6ebaf5;
+    font-size: 25px;
+}
+
+.login button {
+    margin-top:5%;
+    padding: 10px;
+    border: 2px solid #1f96f4;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 125%;
+    background-color: #1f96f4;
+    width: 100%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.login button:hover {
+    background-color: white ;/* Green */
+    color:#1f96f4;
+  }

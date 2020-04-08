@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.main-header {
+    background-color:#1f96f4;
+    color: white;
+    font-family: Bradley Hand, cursive, Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 150%;
+    text-align: center;
+}
+body {
+    background-image: url("background.jpg");
+    
+   /* background-color: rgb(242, 242, 242);*/
+}
+
+.product-image{
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    height: 100%;
+    padding:0;
+   margin: 5%;
+   margin-left: 10%;
+    border-radius: 20px;
+}
+.product-info{
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+.order{
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    margin: 5%;
+     width: 25%;
+     height: 130%;
+     margin-left: 0%;
+    border-radius: 25px;
+    color: #085691;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    transition-duration: 0.4s;
+    padding: 3%;
+}
+.order h1{
+    width: 90%;
+    color: #000;
+}
+.order h2{
+    padding: 2%;
+    color: darkgreen;
+    font-size: 90%;
+}
+.order h3{
+    color: limegreen;
+}
+#price{
+    font-size: 170%;
+    color:red;
+}
+.list_of_categories {
+    background-color: white;
+    border-radius: 25px;
+    color: #085691;
+    /*box-shadow: 5px 5px 10px 10px Silver;*/
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    transition-duration: 0.4s;
+}
+
+.categories{
+    color: #085691;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 300%;
+    margin: 2%;
+    
+    margin-left: 40%;
+    padding: 1%;
+    width: 50%;
+}
+.order button {
+    margin-top:5%;
+    padding: 10px;
+    border: 2px solid #1f96f4;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 125%;
+    background-color: #1f96f4;
+    width: 100%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.order button:hover {
+    background-color:white ;
+    color:#1f96f4 ;
+  }
+
+.description{
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    margin: 5%;
+     width: 80%;
+     height: 70%;
+  
+    border-radius: 25px;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    transition-duration: 0.4s;
+    padding: 3%;
+}
+
+.features {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    margin: 3%;
+}
+
+.desc {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+}
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }

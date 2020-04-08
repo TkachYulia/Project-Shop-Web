@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.main-header {
+    background-color:#1f96f4;
+    color: white;
+    font-family: Bradley Hand, cursive, Arial, Helvetica, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+    font-size: 150%;
+    text-align: center;
+}
+body {
+    background-image: url("background.jpg");
+    
+   /* background-color: rgb(242, 242, 242);*/
+}
+
+.list_of_categories h1{
+    background-color: white;
+    margin: 2%;
+    height: 10%;
+    margin-left: 20%;
+    padding: 2%;
+    width: 50%;
+    border-radius: 25px;
+    color: #085691;
+    /*box-shadow: 5px 5px 10px 10px Silver;*/
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    transition-duration: 0.4s;
+}
+
+.categories{
+    color: #085691;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 300%;
+    margin: 2%;
+    
+    margin-left: 40%;
+    padding: 1%;
+    width: 50%;
+}
+
+.list_of_categories h1:hover {
+    background-color: #1f96f4 ;/* Green */
+    color:white;
+  }
